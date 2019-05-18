@@ -15,7 +15,7 @@
 		FD09EE422288B2ED00FEAF65 /* GameViewController+AVCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09EE412288B2ED00FEAF65 /* GameViewController+AVCapture.swift */; };
 		FD09EE442288B5B200FEAF65 /* GameViewController+Game+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09EE432288B5B200FEAF65 /* GameViewController+Game+View.swift */; };
 		FD09EE462288B60A00FEAF65 /* GameViewController+Vision.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09EE452288B60A00FEAF65 /* GameViewController+Vision.swift */; };
-		FD09EE482288C9E700FEAF65 /* RockPaperScissorsHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09EE472288C9E700FEAF65 /* RockPaperScissorsHelpers.swift */; };
+		FD09EE482288C9E700FEAF65 /* RockPaperScissorsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09EE472288C9E700FEAF65 /* RockPaperScissorsModels.swift */; };
 		FD2B5494229084A40085AF7A /* RockPaperScissors.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FD2B5493229084A40085AF7A /* RockPaperScissors.mlmodel */; };
 		FD2B5498229096B80085AF7A /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2B5497229096B80085AF7A /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
@@ -31,7 +31,7 @@
 		FD09EE412288B2ED00FEAF65 /* GameViewController+AVCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameViewController+AVCapture.swift"; sourceTree = "<group>"; };
 		FD09EE432288B5B200FEAF65 /* GameViewController+Game+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameViewController+Game+View.swift"; sourceTree = "<group>"; };
 		FD09EE452288B60A00FEAF65 /* GameViewController+Vision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameViewController+Vision.swift"; sourceTree = "<group>"; };
-		FD09EE472288C9E700FEAF65 /* RockPaperScissorsHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsHelpers.swift; sourceTree = "<group>"; };
+		FD09EE472288C9E700FEAF65 /* RockPaperScissorsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsModels.swift; sourceTree = "<group>"; };
 		FD2B5493229084A40085AF7A /* RockPaperScissors.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = RockPaperScissors.mlmodel; sourceTree = "<group>"; };
 		FD2B5497229096B80085AF7A /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,9 +66,8 @@
 		FD09EE2A2286763A00FEAF65 /* rock-paper-scissors */ = {
 			isa = PBXGroup;
 			children = (
-				FD2B54952290961D0085AF7A /* GameViewController */,
-				FD2B5496229096270085AF7A /* ResultViewController */,
-				FD09EE472288C9E700FEAF65 /* RockPaperScissorsHelpers.swift */,
+				FD2B549B2290A2D10085AF7A /* View */,
+				FD2B549C2290A2D90085AF7A /* Model */,
 				FD09EE40228676DF00FEAF65 /* Storyboard */,
 				FD09EE3D2286767400FEAF65 /* SupportingFiles */,
 			);
@@ -112,6 +111,23 @@
 				FD2B5497229096B80085AF7A /* ResultViewController.swift */,
 			);
 			path = ResultViewController;
+			sourceTree = "<group>";
+		};
+		FD2B549B2290A2D10085AF7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD2B54952290961D0085AF7A /* GameViewController */,
+				FD2B5496229096270085AF7A /* ResultViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD2B549C2290A2D90085AF7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD09EE472288C9E700FEAF65 /* RockPaperScissorsModels.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,7 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD09EE482288C9E700FEAF65 /* RockPaperScissorsHelpers.swift in Sources */,
+				FD09EE482288C9E700FEAF65 /* RockPaperScissorsModels.swift in Sources */,
 				FD2B5494229084A40085AF7A /* RockPaperScissors.mlmodel in Sources */,
 				FD09EE2E2286763A00FEAF65 /* GameViewController.swift in Sources */,
 				FD09EE462288B60A00FEAF65 /* GameViewController+Vision.swift in Sources */,
