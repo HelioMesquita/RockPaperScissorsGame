@@ -1,4 +1,4 @@
-# rock-paper-scissors-game-coreml
+# Rock-Paper-Scissors-Game-coreML
 A rock-paper-scissor game using core ml with a specific model created
 
 This is a simple project used to learn some machine learning concepts with coreml.
