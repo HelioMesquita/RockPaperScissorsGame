@@ -4,12 +4,12 @@
 [![Xcode 11.3](https://img.shields.io/badge/Xcode-11.3-blue.svg?style=flat)](https://developer.apple.com/xcode/)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://github.com/HelioMesquita/rock-paper-scissors-game-coreml/blob/master/LICENSE)
 
-A iOS application that is the rock-paper-scissor game. It is were develop since the mlmodel until the layout. This is a academic project, so it were not develop thing about code quality, architecture, design pattern or testability.
+An iOS app which is the rock-paper-scissors game. It was developed from mlmodel to layout. This is an academic project, so it was not focused on developing with code quality, architecture, design pattern or testability.
 
 ### Prerequisites
 
 * [Xcode](https://developer.apple.com/xcode/) 11.3
-* [iPhone] This application does not run in simulator
+* A iPhone, because this application does not run in simulator
 
 # Acknowledgments
 
