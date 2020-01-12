@@ -7,9 +7,9 @@
 An iOS app which is the rock-paper-scissors game. It was developed from mlmodel to layout. This is an academic project, so it was not focused on developing with code quality, architecture, design pattern or testability.
 
 <p align="center">
-    <img src="img/image1.png" width="300" max-width="30%"/>
-    <img src="img/image2.png" width="300" max-width="30%"/>
-    <img src="img/image3.png" width="300" max-width="30%"/>
+    <img src="img/image1.png" width="300" max-width="20%"/>
+    <img src="img/image2.png" width="300" max-width="20%"/>
+    <img src="img/image3.png" width="300" max-width="20%"/>
 </p>
 
 ### Prerequisites
