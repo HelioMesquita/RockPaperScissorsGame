@@ -17,7 +17,6 @@ An iOS app which is the rock-paper-scissors game. It was developed from mlmodel 
 * [Xcode](https://developer.apple.com/xcode/) 11.3
 * A iPhone, because this application does not run in simulator
 
-# Acknowledgments
 
 I used those articles to make this project:
   - [Recognizing objects in live capture](https://developer.apple.com/documentation/vision/recognizing_objects_in_live_capture)
