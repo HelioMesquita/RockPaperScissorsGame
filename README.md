@@ -4,7 +4,7 @@
 [![Xcode 11.3](https://img.shields.io/badge/Xcode-11.3-blue.svg?style=flat)](https://developer.apple.com/xcode/)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://github.com/HelioMesquita/rock-paper-scissors-game-coreml/blob/master/LICENSE)
 
-An iOS app which is the rock-paper-scissors game. It was developed from mlmodel to layout. This is an academic project, so it was not focused on developing with code quality, architecture, design pattern or testability.
+An iOS app which is the rock-paper-scissors game. It was developed from mlmodel to layout.
 
 <p align="center">
     <img src="img/image1.png" width="200" max-width="20%"/>
